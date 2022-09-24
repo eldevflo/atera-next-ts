@@ -2,52 +2,58 @@
     background-image: url(../assets/images/dashboard-6.png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: contain;
+    /* background-size: contain; */
     height: 100%;
-    /* left: 0;
+    left: 0;
     position: absolute;
-    top: 0; */
+    top: 0;
     width: 100%;
 }
 .dashboardWrapper{
     width: 74%;
     margin: auto;
     position: relative;
+    padding-top: 42.521589%;
+
 }
 .infoSections{
 
 }
 .infoSection{
-    position: relative;
-    width: 25%;
+    position: absolute;
+    width: 23%;
 
 }
 .dashboardAlerts{
     position: absolute;
-    top: 8%;
-    right: 23%;
+    top: 16%;
+    right: 20%;
 }
 .infoSection1{
-    top: 160px;
-    left: 17%;
+    top: 28%;
+    left: 20%;
 }
 .infoSection2{
-    bottom: 29px;
-    left: 44%;
+    left: 46%;
+    top: 28%;
 }
 .infoSection3{
-    bottom: 231px;
     left: 70%;
+    top: 28%;
 }
 .infoSection6{
-    bottom: 205px;
-    left: 17%;
+    left: 20%;
+    bottom: 11%;
 }
 .infoSection5{
-    bottom: 391px;
+    bottom: 11%;
     left: 44%;
 }
 .infoSection4{
-    bottom: 599px;
-    left: 71%;
+    left: 70%;
+    bottom: 11%
+}
+.dashboardKeyboard{
+    display: flex;
+    justify-content: center;
 }

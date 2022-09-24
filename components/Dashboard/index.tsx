@@ -8,9 +8,6 @@ function Dashboard() {
         className={`relative mx-auto ${styles.dashboardWrapper}`}
       >
         <div id="db_animation_container" className={styles.dashboardBase}>
-          <div className={`inline-block mx-auto`} id="dashboard_base">
-            <div id="dashboard_keyboard" className="hidden lg:block"></div>
-          </div>
           <div
             id="info_sections"
             className={`hidden lg:block ${styles.infoSections}`}
@@ -119,6 +116,12 @@ function Dashboard() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="dashboard_keyboard" className={styles.dashboardKeyboard}>
+        <img
+          src="https://d12tbd6xzgxi73.cloudfront.net/app/themes/atera/dist/images/homepage/dashboard/parts/keyboard.svg"
+          alt=""
+        />
       </div>
     </div>
   );

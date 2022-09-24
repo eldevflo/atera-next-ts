@@ -12,7 +12,7 @@ function Navigation() {
       xl:flex xl:py-2 md:flex-row-reverse xl:flex-row xl:p-0"
         >
           <div className="md:hidden xl:inline-block">
-            <Link href="https://www.atera.com" className="header__logo">
+            <Link href="https://www.atera.com">
               <HeaderLogo />
             </Link>
           </div>
@@ -29,7 +29,7 @@ function Navigation() {
             </div>
           </div>
         </div>
-        <div className="header__bottom-section flex items-center  xl:overflow-visible xl:opacity-100 xl:h-auto xl:p-0  xl:gap-10 xl2:gap-[9.75rem]  xl:mt-0 xl:flex-row">
+        <div className="header__bottom-section flex items-center  xl:overflow-visible xl:opacity-100 xl:h-auto xl:p-0  xl:gap-[10rem] xl2:gap-[9.75rem]  xl:mt-0 xl:flex-row">
           <div className="header__nav md:pt-12.5 xl:pt-8 xl:pt-0 xl:flex xl:items-center">
             <div className="menu-atera-rebranded-menu-container">
               <ul id="menu-atera-rebranded-menu" className={styles.menu}>
