@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
@@ -15,12 +18,39 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+
+.container {
+  padding: 0 2rem;
+}
+
+main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-link{
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: .8125rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  min-width: 180px;
+  padding: .8125rem 1.5rem;
+  text-align: center;
+  transition-duration: .15s;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+
+}
+.button-link:hover{
+  transform: translateY(-0.125rem)
 }

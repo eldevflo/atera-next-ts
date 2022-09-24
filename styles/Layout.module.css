@@ -1,0 +1,29 @@
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 1.625rem;
+}
+.menuItemInner{
+    display: flex;
+    border-width: 0;
+    gap: .375rem;
+    justify-content: space-between;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.subMenu{
+    display: flex;
+    opacity: 0;
+    padding-bottom: 0;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+}
+.buttonLogin{
+    border-color: white;
+    color: white;
+}
+
+.depth0{
+    padding-right: 1.625rem;
+}
