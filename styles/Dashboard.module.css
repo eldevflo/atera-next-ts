@@ -1,0 +1,53 @@
+.dashboardBase{
+    background-image: url(../assets/images/dashboard-6.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    /* left: 0;
+    position: absolute;
+    top: 0; */
+    width: 100%;
+}
+.dashboardWrapper{
+    width: 74%;
+    margin: auto;
+    position: relative;
+}
+.infoSections{
+
+}
+.infoSection{
+    position: relative;
+    width: 25%;
+
+}
+.dashboardAlerts{
+    position: absolute;
+    top: 8%;
+    right: 23%;
+}
+.infoSection1{
+    top: 160px;
+    left: 17%;
+}
+.infoSection2{
+    bottom: 29px;
+    left: 44%;
+}
+.infoSection3{
+    bottom: 231px;
+    left: 70%;
+}
+.infoSection6{
+    bottom: 205px;
+    left: 17%;
+}
+.infoSection5{
+    bottom: 391px;
+    left: 44%;
+}
+.infoSection4{
+    bottom: 599px;
+    left: 71%;
+}

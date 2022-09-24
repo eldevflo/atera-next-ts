@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <section className={styles.homeHero}>
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto text-center mb-10">
           <div className="top basic-reveal load-hidden text-white">
             <h1 className="uppercase my-0 mb-6 md:mb-8 text-rh3 xxsm:text-rh2 md:text-rh1 xl:text-[4.5rem] xl:leading-[0.8]">
               Designed for everyday heroes, Built for IT professionals.
