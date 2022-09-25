@@ -1,0 +1,60 @@
+.customers{
+    margin-top: 6rem;
+}
+.overflowingBorder{
+    background: linear-gradient(#ededed,#ededed) 50%/calc(100% + 1rem) calc(100% + 1rem) no-repeat;
+    border: 1.5rem solid transparent;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.overflowingBorder:before {
+    border-left-color: #1a1a1a;
+    border-left-width: 1px;
+    border-right-color: #1a1a1a;
+    border-right-width: 1px;
+    content: "";
+    height: calc(100% + 3rem);
+    position: absolute;
+    top: -1.5rem;
+    transform: translateZ(-1px);
+    width: 100%;
+}
+.preTitle{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .1em;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+}
+.overflowingBorder:after {
+    border-bottom-color: #1a1a1a;
+    border-bottom-width: 1px;
+    border-top-color: #1a1a1a;
+    border-top-width: 1px;
+    content: "";
+    height: 100%;
+    left: -1.5rem;
+    position: absolute;
+    top: 0;
+    transform: translateZ(-1px);
+    width: calc(100% + 3rem);
+    
+}
+.customerList li{
+    margin-bottom: 4rem;
+    flex: 17%;
+}
+@media (min-width: 1024px) {
+.overflowingBorder:before{
+    height: calc(100% + 4rem);
+    top: -2rem;
+}
+.overflowingBorder:after{
+    left: -2rem;
+    width: calc(100% + 4rem);
+}
+.overflowingBorder{
+    border-width: 2.25rem;
+
+}
+}

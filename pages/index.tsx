@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Customers from "../components/Customers";
 import Dashboard from "../components/Dashboard";
 import Layout from "../components/Layout";
 import styles from "../styles/Home.module.css";
@@ -8,7 +9,7 @@ const Home: NextPage = () => {
     <Layout>
       <section className={styles.homeHero}>
         <div className="container mx-auto text-center mb-10">
-          <div className="top basic-reveal load-hidden text-white">
+          <div className="top basic-reveal  text-white">
             <h1 className="uppercase my-0 mb-6 md:mb-8 text-rh3 xxsm:text-rh2 md:text-rh1 xl:text-[4.5rem] xl:leading-[0.8]">
               Designed for everyday heroes, Built for IT professionals.
             </h1>
@@ -31,6 +32,7 @@ const Home: NextPage = () => {
         </div>
         <Dashboard />
       </section>
+      <Customers />
     </Layout>
   );
 };

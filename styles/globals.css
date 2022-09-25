@@ -8,7 +8,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+body{
+  background: linear-gradient(#ededed,#ededed) 50%/calc(100% + 1rem) calc(100% + 1rem) no-repeat;
 
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -17,7 +20,9 @@ a {
 * {
   box-sizing: border-box;
 }
-
+html.sr .load-hidden {
+  visibility: hidden;
+ }
 
 .container {
   padding: 0 2rem;
@@ -26,11 +31,7 @@ a {
 main {
   min-height: 100vh;
   padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
 }
 .button-link{
   border: 1px solid transparent;
