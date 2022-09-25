@@ -43,6 +43,9 @@
 .customerList li{
     margin-bottom: 4rem;
     flex: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media (min-width: 1024px) {
 .overflowingBorder:before{

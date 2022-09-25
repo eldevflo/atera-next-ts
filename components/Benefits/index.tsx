@@ -13,7 +13,7 @@ function Benefits() {
             >
               EVERYTHING YOU NEED TO GET TO WHERE YOU WANT TO BE.
             </p>
-            <h2 className="mb-10 md:mb-8 text-[5rem]">
+            <h2 className="mb-10 md:mb-8 text-[5rem] main-title">
               WELCOME <br className="sm:hidden xl2:block" />
               TO THE <br className="hidden sm:block xl2:hidden" />
               NEXT LEVEL OF IT

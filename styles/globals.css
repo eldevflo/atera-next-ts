@@ -35,6 +35,10 @@ main {
   padding: 4rem 0;
 
 }
+.main-title{
+  font-family: fantasy;
+
+}
 .button-link{
   border: 1px solid transparent;
   border-radius: 12px;

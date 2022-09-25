@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       <section className={styles.homeHero}>
         <div className="container mx-auto text-center mb-10">
           <div className="top basic-reveal  text-white">
-            <h1 className="uppercase my-0 mb-6 md:mb-8 text-rh3 xxsm:text-rh2 md:text-rh1 xl:text-[4.5rem] xl:leading-[0.8]">
+            <h1 className="uppercase my-0 mb-6 md:mb-8 text-rh3 xxsm:text-rh2 md:text-rh1 xl:text-[4.5rem] xl:leading-[0.8] main-title">
               Designed for everyday heroes, Built for IT professionals.
             </h1>
             <p className="hero-text mb-10 block mx-auto">
