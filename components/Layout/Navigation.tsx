@@ -349,7 +349,7 @@ xl:mx-0 xl:flex xl:m-0"
           >
             <a href="/signup/">
               <div
-                className={`button-link ${styles.buttonSignUp} ${styles.buttonLinkRounded} mb-3 w-full xl:mb-0 xl:min-w-[10rem] bg-primaryPink text-white `}
+                className={`button-link botton-signup ${styles.buttonLinkRounded} mb-3 w-full xl:mb-0 xl:min-w-[10rem] bg-primaryPink text-white `}
               >
                 Sign up
               </div>

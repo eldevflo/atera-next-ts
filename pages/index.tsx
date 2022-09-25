@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Benefits from "../components/Benefits";
 import Customers from "../components/Customers";
 import Dashboard from "../components/Dashboard";
 import Layout from "../components/Layout";
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
         <Dashboard />
       </section>
       <Customers />
+      <Benefits />
     </Layout>
   );
 };

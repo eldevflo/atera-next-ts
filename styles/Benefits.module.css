@@ -1,0 +1,11 @@
+.benefits{
+    margin-top: 8rem;
+}
+
+.benefitsItem{
+    width: calc(50% - 3.5rem);
+
+}
+.benefitsTitle{
+    flex: none;
+}

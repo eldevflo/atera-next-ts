@@ -1,6 +1,5 @@
 import { RevealList } from "next-reveal";
-import RevealWrapper from "next-reveal/dist/esm/components/RevealWrapper";
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "../../styles/Customers.module.css";
 
 function Customers() {
@@ -20,7 +19,7 @@ function Customers() {
           <ul className={styles.customerList}>
             <RevealList
               interval={200}
-              delay={500}
+              delay={300}
               duration={3000}
               origin={"bottom"}
               className="flex flex-wrap justify-around"
