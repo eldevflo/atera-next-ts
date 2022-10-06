@@ -26,8 +26,8 @@ function Customers() {
             >
               {Array(10)
                 .fill(0)
-                .map((i) => (
-                  <li className="fade-bottom-interval load-hidden">
+                .map((i, index) => (
+                  <li key={index} className="fade-bottom-interval load-hidden">
                     <picture>
                       <source
                         media="(min-width: 1024px)"

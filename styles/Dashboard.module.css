@@ -13,7 +13,7 @@
     width: 74%;
     margin: auto;
     position: relative;
-    padding-top: 34.521589%;
+    padding-top: 33.521589%;
 
 }
 .infoSections{
@@ -58,4 +58,30 @@
 .dashboardKeyboard{
     display: flex;
     justify-content: center;
+}
+.dashboardButton{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #ff176b;
+    background-size: 100%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    filter: drop-shadow(0 2px 12px #FF176B);
+    position: absolute;
+}
+.dashboardButton1{
+    top: 23%;
+    left:23%
+}
+.dashboardButton2{
+    top: 23%;
+    left:43%
+}
+.dashboardButton3{
+    top: 23%;
+    left:63%
+}
+.dashboardButton4{
+    left: 63%;
+    bottom: 40%;
 }

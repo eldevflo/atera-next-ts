@@ -10,6 +10,8 @@ body {
 }
 body{
   background: linear-gradient(#ededed,#ededed) 50%/calc(100% + 1rem) calc(100% + 1rem) no-repeat;
+  overflow-x: hidden;
+
 
 }
 a {
