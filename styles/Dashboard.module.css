@@ -16,6 +16,24 @@
     padding-top: 33.521589%;
 
 }
+@media screen and (max-width: 1500px) {
+
+    .dashboardWrapper{
+        width: 91%;
+        margin: auto;
+        position: relative;
+        padding-top: 43.521589%;
+    }
+}
+@media screen and (max-width: 1680px) {
+
+    .dashboardWrapper{
+        width: 83%;
+        margin: auto;
+        position: relative;
+        padding-top: 39.521589%;
+    }
+}
 .infoSections{
 
 }
@@ -26,8 +44,8 @@
 }
 .dashboardAlerts{
     position: absolute;
-    top: 14%;
-    left: 25%;
+    top: 15%;
+    left: 24%;
 }
 .infoSection1{
     top: 23%;

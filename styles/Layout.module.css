@@ -3,6 +3,10 @@
     align-items: center;
     gap: 1.625rem;
     color: white;
+    font-weight: 600;
+}
+.activeMenu{
+    color: black;
 }
 .menuItemInner{
     display: flex;
@@ -24,10 +28,20 @@
     border-color: white;
     color: white;
 }
-
+.activeButtonLogin{
+    border-color: black;
+    color: black;
+}
 .depth0{
     padding-right: 1.625rem;
 }
 .headerLogo svg{
     width: 206px;
+}
+.headerContainer{
+    position: sticky;
+    top:0;
+}
+.activeHeader{
+    background: white;
 }

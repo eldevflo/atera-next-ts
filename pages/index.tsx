@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <section className={styles.homeHero}>
-        <div className=" mx-auto text-center mb-20">
+        <div className="container mx-auto text-center">
           <div className="top basic-reveal  text-white">
             <h1 className="uppercase my-0 mb-6 md:mb-8 text-rh3 xxsm:text-rh2 md:text-rh1 xl:text-[4.5rem] xl:leading-[0.8] main-title">
               Designed for everyday heroes, Built for IT professionals.
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
             >
               Get started
             </a>
-            <p className="text-sm md:text-lg	lg:text-p0">
+            <p className="text-sm md:text-lg	lg:text-p0 mb-20">
               No credit card required
             </p>
           </div>

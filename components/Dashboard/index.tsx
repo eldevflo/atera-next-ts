@@ -35,7 +35,7 @@ function Dashboard() {
               </div>
               <div
                 className={`${styles.infoSection} ${styles.infoSection2}`}
-                data-atropos-offset="3"
+                data-atropos-offset="5"
               >
                 <img
                   src="https://d12tbd6xzgxi73.cloudfront.net/app/themes/atera/dist/images/homepage/dashboard/parts/c-1.svg"
@@ -57,7 +57,7 @@ function Dashboard() {
               </div>
               <div
                 className={`${styles.infoSection} ${styles.infoSection6}`}
-                data-atropos-offset="5"
+                data-atropos-offset="10"
               >
                 <img
                   src="https://d12tbd6xzgxi73.cloudfront.net/app/themes/atera/dist/images/homepage/dashboard/parts/b-1.svg"
@@ -81,7 +81,7 @@ function Dashboard() {
 
             <div
               className={`${styles.infoSection} ${styles.infoSection4}`}
-              data-atropos-offset="5"
+              data-atropos-offset="10"
             >
               <img
                 src="https://d12tbd6xzgxi73.cloudfront.net/app/themes/atera/dist/images/homepage/dashboard/parts/f-1.svg"

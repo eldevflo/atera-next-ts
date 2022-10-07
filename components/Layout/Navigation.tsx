@@ -1,11 +1,28 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HeaderLogo from "../../assets/HeaderLogo";
 import styles from "../../styles/Layout.module.css";
 
 function Navigation() {
+  const [isScrolling, setIsScrolling] = useState<boolean>(false);
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+  const handleScroll = () => {
+    if (window.scrollY > 66) {
+      setIsScrolling(true);
+    } else {
+      setIsScrolling(false);
+    }
+  };
+
   return (
-    <header className="header__container header__container-main top-0 h-17.5 xl:h-[6.5rem] xl:w-full xl:opacity-100 xl:z-20">
+    <header
+      className={`${styles.headerContainer} header__container-main ${
+        isScrolling ? styles.activeHeader : ""
+      } top-0 h-17.5 xl:h-[6.5rem] xl:w-full xl:opacity-100 xl:z-20`}
+    >
       <div className="header__container-child xl:flex xl:justify-between xl:items-center max-w-[1400px] xl:h-full  mx-auto">
         <div
           className="header__top-section flex items-center justify-between py-[1.625rem] px-5 md:pt-[1.6875rem] md:pb-[1.1875rem] lg:pt-10 lg:pr-10
@@ -13,7 +30,7 @@ function Navigation() {
         >
           <div className="md:hidden xl:inline-block">
             <Link href="https://www.atera.com">
-              <HeaderLogo />
+              <HeaderLogo isScrolling={isScrolling} />
             </Link>
           </div>
           <div className="inline-block relative h-5 left-0.5 md:h-auto xl:hidden">
@@ -32,7 +49,14 @@ function Navigation() {
         <div className="header__bottom-section flex items-center  xl:overflow-visible xl:opacity-100 xl:h-auto xl:p-0  xl:gap-[10rem] xl2:gap-[9.75rem]  xl:mt-0 xl:flex-row">
           <div className="header__nav md:pt-12.5 xl:pt-8 xl:pt-0 xl:flex xl:items-center">
             <div className="menu-atera-rebranded-menu-container">
-              <ul id="menu-atera-rebranded-menu" className={styles.menu}>
+              <ul
+                id="menu-atera-rebranded-menu"
+                className={
+                  isScrolling
+                    ? `${styles.menu} ${styles.activeMenu}`
+                    : styles.menu
+                }
+              >
                 <li
                   className={`menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children ${styles.depth0}`}
                   id="menu-item-57089"
@@ -356,7 +380,9 @@ xl:mx-0 xl:flex xl:m-0"
             </a>
             <a href="https://app.atera.com/">
               <div
-                className={`button-link ${styles.buttonLogin} ${styles.buttonLinkRounded} `}
+                className={`button-link ${styles.buttonLogin} ${
+                  styles.buttonLinkRounded
+                } ${isScrolling && styles.activeButtonLogin}`}
               >
                 Log in
               </div>
